@@ -1,0 +1,109 @@
+
+.loginPage form {
+    height: fit-content;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.75),
+        0 10px 10px rgba(0, 0, 0, 0.75);
+}
+
+
+
+.loginPage form input {
+    border: none;
+    border: 1px solid #A8A8A8;
+    background-color: #F7F7F7;
+}
+
+.submit {
+    border: none;
+    border: 1px solid #A8A8A8;
+    color: #ffffff;
+    background-color: #4C5260;
+    height: fit-content;
+    font-weight: 600;
+}
+
+.submit:hover {
+    background-color: #F7F7F7;
+    color: #4C5260;
+}
+
+
+.forget {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    color: #ABABAB;
+}
+
+.loginPage a {
+    text-decoration: none !important;
+    color: #ABABAB !important;
+}
+
+.loginPage a:hover,
+.loginPage .forget:hover {
+    color: #4C5260 !important;
+    text-decoration: underline !important;
+}
+
+.passwordContainer i {
+    cursor: pointer;
+}
+
+.loginPage label {
+    color: #807D7D;
+}
+
+.google img,
+.face img {
+    width: 1.5rem;
+}
+
+.passwordContainer {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1rem !important;
+}
+
+.passwordContainer i {
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+    fill: #606972 !important;
+}
+
+.error {
+    color: red;
+    position: absolute;
+}
+
+.face,
+.google {
+    width: 14rem;
+    padding: 5px;
+    border: 1px solid #A8A8A8;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.face:hover,
+.google:hover {
+    background-color: #A8A8A8;
+}
+
+
+.formTitle {
+    color: #646464;
+}
+
+.formTitle img {
+    width: 3rem;
+}
+
+

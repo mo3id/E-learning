@@ -1,0 +1,58 @@
+
+.or {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+p.or{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.or::before {
+    content: '';
+    height: 1px;
+    width: 40%;
+    position: absolute;
+    background-color: black;
+    top: 54%;
+    left: 58%;
+}
+
+.or::after {
+    content: '';
+    height: 1px;
+    width: 40%;
+    position: absolute;
+    background-color: black;
+    top: 54%;
+    right: 58%;
+}
+.w15{
+    width: 2rem;
+}
+.btnGoogleFacebok{
+    border: 1px solid #796C66 !important;
+    color:#796C66 !important;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 0.25rem;
+}
+.face,
+.google {
+    width: 16rem;
+    border: 1px solid #4C5260;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 3rem;
+
+}
+.face span,
+.google span{
+    color: #4C5260;
+}

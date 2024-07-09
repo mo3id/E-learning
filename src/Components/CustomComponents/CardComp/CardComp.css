@@ -1,0 +1,103 @@
+.contentCard {
+    display: flex;
+    flex-direction: column;
+    padding: 7px !important;
+    color: rgba(0, 0, 0, 0.45);
+    /* justify-content: space-between; */
+}
+
+/* 
+.headDiv {
+    gap: 1rem !important;
+} */
+
+.cardTitle {
+    color: #4c5260;
+    padding-left: 0.1rem;
+    display: block;
+    text-align: left;
+}
+
+.truncate {
+    width: 110px;
+    max-width: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p.card-text {
+    line-height: 1.3;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.cardAuthorAndDate {
+    text-align: left;
+    color: #419A9E;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+}
+
+.cardComp {
+    border: 2px solid transparent;
+    overflow: hidden;
+}
+
+.cardComp:hover {
+    cursor: pointer;
+    border-color: transparent;
+    box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.16),
+        0 3px 6px 0 rgba(0, 0, 0, 0.12),
+        0 5px 12px 4px rgba(0, 0, 0, 0.09);
+    border: 2px solid #419A9E;
+}
+
+.CourseCardBtn {
+    display: flex;
+    justify-content: end;
+}
+
+
+.div--price p {
+    color: #4c5260;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.CourseCardBtnColor {
+    background-color: #419A9E;
+    border-style: none;
+}
+.cardImgHome{
+    height: 12rem;
+    object-fit: cover;
+}
+
+@media(hover:hover) {
+    .CourseCardBtnColor {
+        opacity: 0;
+        transform: translateY(100%);
+        transition: transform 1s,
+            opacity 1s;
+    }
+
+    .cardComp:hover .CourseCardBtnColor {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+
+.CourseCardBtnColor:hover {
+
+    background-color: #4c5260 !important;
+}
+
+.ant-rate {
+    font-size: 12px;
+}
+
+.ant-rate-star {
+    margin-inline-end: 5px !important;
+}

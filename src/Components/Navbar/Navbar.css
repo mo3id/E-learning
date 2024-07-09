@@ -1,0 +1,62 @@
+.navbar-nav {
+    color: #4C5260 !important;
+}
+
+
+
+.bg-body-tertiary-white {
+    background-color: #EDEDED !important;
+    transform: translateY(-100px);
+    transition: all 0.5s ease-out;
+    width: 100%;
+}
+
+.bg-body-tertiary {
+    transform: translateY(0);
+}
+
+.bg-body-tertiary-white.show {
+    transform: translateY(0);
+}
+
+
+.navbarBtn {
+    background-color: #419A9E !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+    width: 125px;
+    height: 45px;
+    padding: 0 0 4px !important;
+    border-style: none;
+}
+
+.navbarBtn:hover {
+    background-color: #4C5260 !important;
+}
+
+.navbarBtn a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.homePage--profileName {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4C5260;
+}
+
+.homePage--profileName:hover {
+    color: #419A9E;
+    cursor: pointer;
+}
+
+.homePage--profileIcon:hover {
+    background-color: #419a9e;
+}
+
+@media (max-width: 768px) {
+    .bg-body-tertiary-white.fixed-top {
+        background-color: #EDEDED !important;
+    }
+}

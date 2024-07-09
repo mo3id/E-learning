@@ -1,0 +1,175 @@
+@import "../node_modules/nprogress/nprogress.css";
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  /* min-width: 100vw; */
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.teacher {
+  background-image: url(/images/signUpTeacher.png);
+}
+.student {
+  background-image: url(/images/signUpStudent.png);
+}
+.teacherBtn {
+  background-color: #c11b05;
+  border: 1px solid #c11b05;
+}
+.studentBtn {
+  background-color: #419a9e;
+  border: 1px solid #419a9e;
+}
+.green_btn {
+  background-color: #419a9e;
+  border: 1px solid #419a9e;
+}
+.green_btn:hover {
+  background-color: #419a9e !important;
+  border: 1px solid #419a9e !important;
+  opacity: 0.7;
+}
+.gray_btn {
+  background-color: #4c5260;
+  border: 1px solid #4c5260;
+  width: 100%;
+}
+.gray_btn:hover {
+  background-color: #4c5260 !important;
+  border: 1px solid #4c5260 !important;
+  opacity: 0.7;
+}
+.green_btn_outline {
+  /* background-color: #419a9e; */
+  /* border: 1px solid #419a9e; */
+}
+.green_btn_outline:hover {
+  color: #419a9e !important;
+  border: 1px solid #419a9e !important;
+  /* opacity: .7; */
+}
+
+.teacherBtn:hover {
+  color: #c11b05;
+  background-color: transparent;
+  border: 1px solid #c11b05;
+}
+.studentBtn:hover {
+  color: #419a9e;
+  background-color: transparent;
+  border: 1px solid #419a9e;
+}
+/* :where(.css-dev-only-do-not-override-nnuwmp).ant-message .ant-message-notice .ant-message-error>.anticon{
+  color:  red !important;
+} */
+.ant-message-info {
+  color: red !important;
+}
+
+/* .getStaeted{
+  background-color: red ;
+} */
+
+.createBtnModel {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  color: #ababab;
+}
+.createBtnModel:hover {
+  color: black;
+}
+.notFound {
+  background-color: #1677ff;
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid #1677ff;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#nprogress .bar {
+  z-index: 9999999 !important;
+  background: #419a9e !important;
+  opacity: 1 !important;
+  height: 5px !important;
+  width: 100% !important;
+  position: absolute !important;
+  top: 0;
+}
+#nprogress {
+  width: 100% !important;
+}
+:where(.css-dev-only-do-not-override-18iikkb).ant-menu-dark.ant-menu-inline
+  .ant-menu-sub.ant-menu-inline,
+:where(.css-dev-only-do-not-override-18iikkb).ant-menu-dark
+  > .ant-menu.ant-menu-inline
+  .ant-menu-sub.ant-menu-inline {
+  background: inherit;
+}
+:where(.css-dev-only-do-not-override-18iikkb).ant-menu-dark
+  .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-18iikkb).ant-menu-dark
+  > .ant-menu
+  .ant-menu-item-selected {
+  background-color: #419a9e;
+}
+.stars-details {
+  transform: translateY(33px);
+}
+
+/* :where(.css-dev-only-do-not-override-18iikkb).ant-modal-root .ant-modal-wrap{
+  pointer-events: none !important;
+} */
+.ant-modal-wrap > .lessonModal {
+  pointer-events: none !important;
+}
+.screen2000 {
+  display: block;
+}
+.screen1900 {
+  display: none;
+}
+@media screen and (max-width: 1199px) {
+  .screen2000 {
+    display: none;
+  }
+  .screen1900 {
+    display: block;
+  }
+}
+:where(.css-dev-only-do-not-override-18iikkb).ant-tree {
+  background-color: transparent !important;
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-tabs .ant-tabs-tab-btn {
+  padding: 0.3rem 0.8rem;
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-tabs
+  .ant-tabs-tab.ant-tabs-tab-active
+  .ant-tabs-tab-btn {
+  background-color: #419a9e;
+  color: #fff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-tabs .ant-tabs-tab:hover {
+  color: #419a9e;
+}
+:where(.css-dev-only-do-not-override-18iikkb).ant-tabs .ant-tabs-ink-bar {
+  background-color: #419a9e;
+}

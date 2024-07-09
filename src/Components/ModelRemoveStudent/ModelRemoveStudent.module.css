@@ -1,0 +1,24 @@
+.ItemRow{
+    padding: 0.5rem;
+    background-color: #d9d9d9;
+    border: 1ps solid #d9d9d9;
+    border-radius: 10px;
+}
+.removeBtnStudent,
+.removeBtnStudent :hover{
+    background-color: #C11B05 !important;
+    width: 6rem;
+    border: #C11B05 !important;
+}
+.modContainer{
+    color: #4C5260;
+}
+.addBtnStudent,
+.addBtnStudent :hover{
+ background-color: #419A9E !important;
+ border: #419A9E !important;
+width: 6rem;
+}
+.courseTitle{
+    text-transform: capitalize;
+}

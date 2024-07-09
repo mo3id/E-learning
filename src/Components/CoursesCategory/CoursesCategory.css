@@ -1,0 +1,40 @@
+.coursesCategorySec h2 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #4c5260;
+}
+
+.coursesCategorySec .viewAllBtn {
+  width: 125px;
+  height: 50px;
+  background-color: #c11b05;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.coursesCategorySec .viewAllBtn:hover {
+  background-color: #4c5260 !important;
+}
+
+.coursesCategorySec .viewAllBtn a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.coursesCategorySec .boxElement {
+  background-color: #d9d9d9;
+  width: 300px;
+  border-radius: 15px;
+  color: #464b57;
+  letter-spacing: 0.5px;
+}
+
+.coursesCategorySec .boxElement p {
+  font-size: 1.2rem;
+}
+
+.coursesCategorySec .slick-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

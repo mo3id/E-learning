@@ -1,0 +1,8 @@
+.resourseLink{
+    cursor: pointer;
+
+}
+.resourseLink:hover{
+    text-decoration: underline;
+    color: #419a9e;
+}

@@ -1,0 +1,7 @@
+.avatarIcon {
+    background-color: #419a9e;
+}
+
+.avatarIcon:hover {
+    background-color: #4C5260 !important;
+}

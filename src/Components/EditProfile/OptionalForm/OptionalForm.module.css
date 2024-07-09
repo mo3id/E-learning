@@ -1,0 +1,38 @@
+.optianalForm {
+  background-color: #f5f5f5;
+  border-radius: 3px;
+}
+.optianalForm input:focus {
+box-shadow: none;
+}
+
+.submitBtn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.submitBtn button {
+  background: #419a9e;
+  color: #fff;
+}
+
+.submitBtn button:hover,
+.submitBtn button:active {
+  background: #419a9e !important;
+  color: #fff !important;
+}
+
+.datePicker {
+  width: 100%;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notificationLabel {
+  margin-bottom: 0;
+}

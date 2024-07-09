@@ -1,0 +1,14 @@
+.addStudent{
+    
+}
+.containerStyle{
+    position: absolute;
+    height: 200px;
+    padding: 48px;
+    overflow: hidden;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 8px;
+    width: 93%;
+}

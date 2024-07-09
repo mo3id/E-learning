@@ -1,0 +1,78 @@
+
+.bgRegister{
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.LabrlSetting{
+    color:#796C66;
+    font-size: 1.2rem;
+    
+}
+.inputSetting{
+    background-color: #EDEDED !important;
+}
+.btnSubmit{
+    /* background-color: #C11B05; */
+    color: white;
+    /* border: #C11B05; */
+    padding: 0.6rem;
+    border-radius: 10px;
+    
+}
+.marTop{
+   margin-top: 3rem;
+}
+.title{
+    color: #4C5260 !important;
+}
+
+.widthForm{
+    width: 75%;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .bgRegister{
+        background-image: url();
+        background-color: #D9D9D9;
+        height: 100%;
+    }
+    .widthForm{
+        width: 100%;
+    }
+    .Justifty{
+        justify-content: center;
+    }
+  }
+  .passwordContainerRegester {
+    position: relative;
+}
+
+.passwordContainerRegester i {
+    position: absolute;
+    top: 2.9rem;
+    right: 1rem;
+    fill: #606972 !important;
+}
+.passwordContainerRegester i {
+    cursor: pointer;
+}
+
+.homeLink:hover{
+    color: #419A9E; 
+}
+
+@media screen and (max-width: 991px) {
+    .widthForm{
+     
+    }
+    .fixCenterSm{
+        margin: 0 auto;
+    }
+}

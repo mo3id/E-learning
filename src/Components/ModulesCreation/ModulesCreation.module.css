@@ -1,0 +1,21 @@
+.addModuleBtn {
+    background-color: #419A9E;
+    color: #fff;
+    font-weight: 600;
+    border-style: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.addModuleBtn:hover {
+    background-color: #4C5260 !important;
+    color: white !important;
+}
+
+.courseTitle {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #4C5260;
+}

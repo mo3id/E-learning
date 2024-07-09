@@ -1,0 +1,110 @@
+.error {
+  position: absolute;
+  color: red;
+  font-size: 0.6rem;
+}
+
+.info {
+  display: flex;
+}
+
+.userphone {
+  justify-content: space-between;
+}
+
+.userName {
+  text-transform: capitalize;
+  margin-top: 1rem;
+}
+.avatarParent:hover {
+  border-radius: 50%;
+  opacity: 0.7;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.cameraDesign {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.7rem;
+  transition: all 0.3s ease-in-out;
+}
+.avatarParent:hover .cameraDesign {
+  display: block;
+}
+/* 
+.info {
+  display: flex;
+  gap: 3rem;
+} */
+
+.formSection {
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  justify-content: center;
+}
+
+.formSection label,
+.formSection input {
+  color: #419a9e;
+  font-size: 1.3rem;
+}
+
+.formSection input:focus {
+  color: #419a9e;
+  font-size: 1.3rem;
+}
+
+.formSection input::placeholder {
+  font-size: 1rem;
+}
+
+.submitBtn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.submitBtn button {
+  background: #419a9e;
+  color: #fff;
+}
+
+.submitBtn button:hover,
+.submitBtn button:active {
+  background: #419a9e !important;
+  color: #fff !important;
+}
+
+.personalInfo {
+  color: #4c5260;
+  background: #dfdfdf;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.shareProfile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: transparent;
+  color: #4c5260;
+  border: 2px solid #4c5260;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 0;
+}
+
+.shareProfile:hover,
+.shareProfile:active {
+  background: #4c5260 !important;
+  border-color: #4c5260 !important;
+}

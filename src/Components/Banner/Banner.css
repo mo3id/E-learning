@@ -1,0 +1,151 @@
+.banner-container .slick-dots li button:before {
+  content: "" !important;
+}
+
+.banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 90vh;
+  color: #fff;
+  line-height: 160px;
+}
+
+.ant-carousel .slick-dots-bottom {
+  bottom: 22px !important;
+}
+
+.div--banner__translate {
+  transform: translate(0%, -50%);
+}
+
+.div--banner {
+  cursor: default;
+}
+
+.div--banner__green {
+  color: #419a9e;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.div--banner__bigWhite {
+  color: #ffffff;
+  font-size: 1.9rem;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: 1.5px;
+}
+
+.div--banner__smallWhite {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+}
+
+.btn--getStarted {
+  width: 120px;
+  height: 40px;
+  border-style: none;
+  color: #ffff;
+  background-color: #419a9e;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.btn--getStarted:hover {
+  background-color: #4C5260 !important;
+}
+
+
+.div--banner__green {
+  position: relative;
+  /* font-weight: bold !important; */
+  /* font-family: "Anonymous Pro", monospace !important; */
+  /* letter-spacing: 7px !important; */
+  overflow: hidden;
+  border-right: 2px solid #419a9e;
+  white-space: nowrap;
+  animation: typewriter 6s steps(22) 1s infinite normal both,
+    blinkTextCursor 500ms infinite;
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+
+  49% {
+    width: 307px;
+  }
+
+  75% {
+    width: 200px;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: #419a9e;
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+
+
+
+
+@media (min-width: 1000px) {
+  .btn--getStarted {
+    width: 186px;
+    height: 54px;
+    font-size: 1.5rem;
+  }
+
+  .div--banner__green {
+    font-size: 2.3rem;
+
+  }
+
+  .div--banner__bigWhite {
+    font-size: 3rem;
+    line-height: 0.9;
+  }
+
+  .div--banner__smallWhite {
+    font-size: 1.5rem;
+  }
+
+
+}
+
+@media (max-width: 1000px) {
+  @keyframes typewriter {
+    0% {
+      width: 0;
+    }
+
+    49% {
+      width: 230px;
+    }
+
+    75% {
+      width: 150px;
+    }
+
+    100% {
+      width: 0;
+    }
+  }
+}

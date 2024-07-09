@@ -1,0 +1,38 @@
+.counterSec div,
+.counterSec span {
+  color: #4c5260e2;
+}
+
+.first-counter,
+.second-counter,
+.third-counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counters__rightBorder {
+  border-right: 2px solid #4c5260b7;
+  height: 150px;
+  border-bottom: 0;
+}
+
+.counterSec span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.counterSec div {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 765px) {
+  .counters__bottomBorder {
+    border-bottom: 0;
+    height: fit-content;
+    border-right: 0;
+  }
+}

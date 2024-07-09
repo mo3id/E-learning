@@ -1,0 +1,21 @@
+.favoritesTopics {
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    justify-content: center;
+  }
+  
+  .selectTitle {
+    color: #4c5260;
+  }
+  
+  .category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .favImg {
+    max-width: 10rem;
+    cursor: pointer;
+  }
+  

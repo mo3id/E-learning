@@ -1,0 +1,22 @@
+.BtnColor {
+    background-color: #419A9E;
+    border-style: none;
+}
+
+
+.BtnColor:hover {
+
+    background-color: #4c5260 !important;
+}
+
+.spinerContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}

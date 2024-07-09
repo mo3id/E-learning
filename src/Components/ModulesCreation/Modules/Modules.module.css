@@ -1,0 +1,21 @@
+.addLessonBtn {
+    background-color: #419A9E;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 20px 20px;
+    border-style: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.addLessonBtn:hover {
+    background-color: #4C5260;
+    color: white !important;
+}
+
+.icons:hover{
+    color: blue;
+}

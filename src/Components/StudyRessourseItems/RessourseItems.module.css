@@ -1,0 +1,19 @@
+.resourseLink {
+  cursor: pointer;
+}
+.resourseLink:hover {
+  text-decoration: underline;
+  color: #419a9e;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #419a9e;
+  color: #fff;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: #b1d4e0;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}

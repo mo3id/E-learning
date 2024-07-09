@@ -1,0 +1,64 @@
+.lessonModal .ant-modal-content,
+.lessonModal .ant-modal-header {
+    background-color: #F5F5F5 !important;
+}
+
+.lessonModal input:hover {
+    border-color: #419A9E !important;
+}
+
+.lessonModal textarea {
+    resize: none !important;
+}
+
+.lessonModal textarea:hover {
+    border-color: #419A9E !important;
+}
+
+
+.lessonModal .ant-upload-select {
+    width: 100% !important;
+    height: 100% !important;
+    border: 2px dashed #4C5260 !important;
+}
+
+.lessonModal .ant-upload-select:hover {
+    border: 2px dashed #419A9E !important;
+}
+
+.lessonModal .ant-upload-select svg {
+    font-size: 2.5rem;
+}
+
+.lessonModal .ant-upload-select span {
+    color: #4C5260;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.lessonModal .ant-upload-select .styledDiv {
+    font-weight: normal;
+}
+
+.lessonModal .ant-upload-select .styledDiv span {
+    color: #419A9E;
+    font-weight: normal;
+}
+
+.lessonModal .ant-upload-select .styledDiv span:hover {
+
+    text-decoration: underline;
+}
+
+.lessonModal .modalSubmitBtn {
+        font-size: 1.3rem;
+        line-height: 0.9;
+        background-color: #419A9E;
+        border-radius: 10px;
+        padding: 10px 25px;
+        height: fit-content;
+}
+
+.lessonModal .modalSubmitBtn:hover {
+    background-color: #4C5260 !important;
+}

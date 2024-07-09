@@ -1,0 +1,97 @@
+.error {
+  position: absolute;
+  color: red;
+  font-size: 0.6rem;
+}
+
+.info {
+  display: flex;
+}
+
+.userphone {
+  justify-content: space-between;
+}
+
+/* 
+.info {
+  display: flex;
+  gap: 3rem;
+} */
+
+.formSection {
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  justify-content: center;
+}
+
+.formSection label {
+  color: #4c5260;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.formSection input {
+  color: #419a9e;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+
+.formSection input:focus {
+  color: #419a9e;
+  font-size: 1.1rem;
+  box-shadow: none;
+}
+
+.formSection input::selection {
+  color: #419a9e;
+  font-size: 1.1rem;
+}
+
+.formSection input::placeholder {
+  font-size: 1rem;
+}
+
+.submitBtn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.submitBtn button {
+  background: #419a9e;
+  color: #fff;
+}
+
+.submitBtn button:hover,
+.submitBtn button:active {
+  background: #419a9e !important;
+  color: #fff !important;
+}
+
+.personalInfo {
+  color: #4c5260;
+  background: #dfdfdf;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.shareProfile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: transparent;
+  color: #4c5260;
+  border: 2px solid #4c5260;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 0;
+}
+
+.shareProfile:hover,
+.shareProfile:active {
+  background: #4c5260 !important;
+  border-color: #4c5260 !important;
+}

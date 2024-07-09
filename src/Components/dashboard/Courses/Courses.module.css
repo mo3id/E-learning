@@ -1,0 +1,79 @@
+/* :where(.css-dev-only-do-not-override-18iikkb).ant-card .ant-card-body {
+  padding: 0.8rem;
+} */
+.cardParent {
+  border: none;
+  background-color: #d9d9d9;
+  box-shadow: 0px 0px 8px 1px #00000030;
+  height: 300px;
+}
+.courseCard {
+  padding: 0.8rem !important;
+}
+
+.courseCard .ant-card-body {
+  padding: 0.8rem !important;
+}
+
+.list {
+  /* display: none; */
+  /* position: absolute; */
+  /* bottom: 11%;
+  right: 1%; */
+  /* transform: translate(-50%, -50%); */
+  font-size: 1.3rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color: #419a9e;
+  /* flex-grow: 1; */
+}
+/* .cardParent:hover .list {
+  display: block;
+} */
+
+.addCourse {
+  font-size: 2rem;
+  color: #fff;
+  background-color: #419a9e;
+  width: 40px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 0.4rem;
+  cursor: pointer;
+  height: 40px;
+}
+
+.addCourseTitle {
+  font-size: 1.4rem;
+}
+
+.courseNameLink:hover {
+  color: #419a9e;
+  text-decoration: underline;
+}
+
+.courseName {
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+.cardParent {
+  position: relative;
+}
+
+.deactive::before {
+  position: absolute;
+  content: "deactive";
+  color: #fff;
+  background-color: #c11b05;
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.cardImage {
+  height: 15rem;
+  object-fit: cover;
+}

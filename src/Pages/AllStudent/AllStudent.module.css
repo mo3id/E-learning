@@ -1,0 +1,95 @@
+.filter{
+    text-align: center;
+    color: #419a9e;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    padding-bottom: 0.5rem;
+
+}
+.filterContainer{
+    padding: 5rem 1rem;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.noStudents{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: rgb(76, 82, 96);
+}
+.imgContainer{
+    width: 60px;
+    height: 60px;
+    
+}
+.imgContainer img{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.StudentInfo{
+    font-size: 1rem;
+    text-align: left;
+   }
+   .studentEmail{
+       color: #4c5260;
+   }
+   .studentName{
+       color: #419a9e;
+       margin-bottom: 0 !important;
+   }
+   .StudentConitainer{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   }
+   .rowStyle{
+    background-color: #d9d9d9;
+    color: #419a9e;
+    font-weight: bolder;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+   }
+   @media screen and (max-width:1199px) {
+
+    .rev{
+        flex-direction: column-reverse;
+    }
+}
+.details{
+    font-size: 1rem;
+    border: 1px solid #419a9e ;
+    padding: 0.3rem;
+    background-color: #419a9e;
+    color: white;
+    border-radius: 10px;
+    text-wrap: nowrap;
+
+}
+.remove{
+    font-size: 1rem;
+    border: 1px solid #4c5260 ;
+    padding: 0.3rem;
+    background-color: #4c5260;
+    color: white;
+    border-radius: 10px;
+    text-wrap: nowrap;
+}
+@media screen and (max-width:767px) {
+
+    .remove{
+       width: 50%;
+    }
+    .details{
+        width: 50%;
+        margin-bottom: 0.5rem;
+    }
+    .rowStyle{
+        display: none;
+    }
+}

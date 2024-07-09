@@ -1,0 +1,14 @@
+.sliderComp .slick-next,
+.sliderComp .slick-prev {
+  color: #4c5260e2;
+  height: 36px !important;
+  width: 23px !important;
+}
+
+.slick-slider {
+  width: 100% !important;
+}
+
+.slick-list {
+  padding-bottom: 1rem !important;
+}

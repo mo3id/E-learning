@@ -1,0 +1,56 @@
+.screen2000{
+    display:block;
+  }
+  .screen1900{
+    display:none;
+  }
+.containerStyle{
+    position: relative;
+    height: 380px;
+    padding: 48px;
+    overflow: hidden;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 8px;
+    width: 93%;
+}
+.screen2000Style{
+    padding: 5rem 3rem;
+    color: #4c5260;
+    text-align: center;
+    background-color: #d9d9d942;
+    border-radius: 15px;
+
+
+}
+.screen2000Style h3{
+margin-bottom: 2rem;
+border-bottom: 1px solid rgb(240, 240, 240);
+padding-bottom: 0.5rem;
+}
+@media screen and (max-width:1199px) {
+    .screen2000{
+        display:none;
+      }
+      .screen1900{
+        display:block;
+      }
+    .containerStyle{
+        /* position: absolute; */
+        width: 74%;
+        left: 20%;
+     
+    }
+    .rev{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:454px) {
+    .containerStyle{
+      width: 92%;
+      left: 0%;
+  
+    }
+   
+}

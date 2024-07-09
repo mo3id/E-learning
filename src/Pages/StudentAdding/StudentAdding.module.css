@@ -1,0 +1,113 @@
+.containerStyle{
+    position: relative;
+    height: 380px;
+    padding: 48px;
+    overflow: hidden;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 8px;
+    width: 93%;
+}
+.StudentConitainer{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.imgContainer{
+    width: 60px;
+    height: 60px;
+}
+.StudentInfo{
+ font-size: 1rem;
+ text-align: left;
+}
+.studentEmail{
+    color: #4c5260;
+}
+.studentName{
+    color: #419a9e;
+    margin-bottom: 0 !important;
+}
+.imgContainer img{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.addIcon{
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #4c5260;
+}
+@media screen and (max-width:1199px) {
+    .containerStyle{
+        position: absolute;
+        width: 74%;
+    }
+    .rev{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:454px) {
+    .containerStyle{
+      
+        width: 60%;
+    }
+   
+}
+.AddSts{
+    border: 1px solid #419a9e;
+    background-color: #419a9e;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    color: white;
+}
+.AddSts:hover{
+    border: 1px solid #419a9e;
+    background-color: white;
+   
+    color: #419a9e;
+}
+.AddAll{
+    border: 1px solid #4c5260;
+    background-color: #4c5260;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    color: white;
+}
+.AddSts:hover{
+    border: 1px solid #419a9e;
+    background-color: white;
+   
+    color: #419a9e;
+}
+.controlsStudent{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+
+}
+@media screen and (max-width:445px) {
+    .controlsStudent{flex-direction: column;}
+}
+.addIconClicked{
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color:#419a9e !important;
+}
+.RemoveAll{
+    border: 1px solid #C11B05;
+    background-color: #C11B05;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    color: white;
+}

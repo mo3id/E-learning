@@ -1,0 +1,44 @@
+.HelpSec {
+  background-color: #ffff;
+  width: 70%;
+}
+
+
+.HelpSec h2,
+.HelpSec p {
+  color: #4c5260;
+  letter-spacing: 0.5px;
+}
+
+.HelpSec button {
+  background-color: #419A9E;
+  color: #ffff;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  width: 125px;
+  height: 45px;
+  padding: 0 0 4px;
+}
+
+.HelpSec button:hover {
+  background-color: #4C5260;
+}
+
+/* .HelpSec img {
+  border-radius: 40% 20% 40% 20%;
+} */
+
+
+@media only screen and (max-width: 667px) {
+  .HelpSec {
+    width: 60% !important;
+  }
+}
+
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+  .HelpSec {
+    width: 100% !important;
+  }
+}

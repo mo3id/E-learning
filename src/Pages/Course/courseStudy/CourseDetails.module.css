@@ -1,0 +1,63 @@
+.bannerDetails{
+    background-color: #d9d9d9;
+    padding: 3rem;
+    color: #4c5260;
+ 
+}
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4c5260;
+}
+.fixedCard{
+
+    padding: 0;
+    transform: translate(-22px, -92px);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.content{
+    background-color: #419a9e;
+    padding: 0.75rem;
+    color: white;
+}
+.description{
+    color: #4c5260;
+    font-size: 1.3rem !important;
+    overflow-wrap: break-word;
+}
+@media screen  and (max-width:667px){
+    .fixedCard{
+        transform: translate(0px, 0px);
+    }
+}
+.createBy{
+    color: #419a9e;
+    text-decoration:underline
+}
+
+.headingColor{
+    color:#4C5260;
+    padding: 10px;
+    background-color: #D9D9D9;
+    margin-bottom: 0;
+}
+.learnSection{
+display: flex;
+align-items: center;
+color: #4c5260;
+font-size: 1.1rem;
+
+}
+.checked{
+    margin-inline-end: 0.3rem;
+    font-size: 1.1rem;
+    
+}
+.gap5{
+    gap: 6px;
+}
+.gap20{
+    gap: 10px;
+}
